@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Oracle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Gluten&family=Montserrat:wght@200;400&family=Noto+Sans+Chorasmian&family=Roboto:wght@400;500&family=Yrsa&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/effect.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <body>
+
+      <header>
+          <div class="wrapper-header">
+              <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+              <nav>
+                  <a style="color: #FF9F00;" class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="clientReg.html">Client Registration</a>
+                  <a class="nav-link" href="#">Advisors</a>
+                  <a class="nav-link" href="advisorReg.html">Register as an Advisor</a>
+                  <a class="search" href="#">
+                      <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="bx:bx-search-alt">
+                          <path id="Vector" d="M16.6667 29.3333C19.477 29.3328 22.2064 28.3919 24.4203 26.6607L31.3806 33.621L33.6194 31.3822L26.6591 24.4218C28.3913 22.2078 29.3327 19.4778 29.3333 16.6667C29.3333 9.68258 23.6507 4 16.6667 4C9.68258 4 4 9.68258 4 16.6667C4 23.6507 9.68258 29.3333 16.6667 29.3333ZM16.6667 7.16667C21.9059 7.16667 26.1667 11.4274 26.1667 16.6667C26.1667 21.9059 21.9059 26.1667 16.6667 26.1667C11.4274 26.1667 7.16667 21.9059 7.16667 16.6667C7.16667 11.4274 11.4274 7.16667 16.6667 7.16667Z" fill="white"/>
+                          <path id="Vector_2" d="M18.0691 13.5945C18.6691 14.1962 19.0001 14.991 19.0001 15.8333H22.1667C22.1681 15.0012 22.0046 14.177 21.6855 13.4084C21.3665 12.6399 20.8982 11.9422 20.3079 11.3557C17.9107 8.96168 13.7545 8.96168 11.3589 11.3557L13.5946 13.5977C14.7979 12.3975 16.8721 12.4007 18.0691 13.5945Z" fill="white"/>
+                          </g>
+                      </svg>
+                  </a>
+                  <a href="logIn.html">
+                      <button>Log in</button>
+                  </a>
+              </nav>
+              <div class="br-menu">
+                  <button id="burger">
+                      <img src="img/br-menu.svg" alt="menu">
+                  </button>
+                  <div id="menu" class="br-slide disp">
+                      <a style="color: #FF9F00;" class="nav-link block" href="index.html">Home</a>
+                      <a class="nav-link block" href="clientReg.html">Client Registration</a>
+                      <a class="nav-link block" href="#">Advisors</a>
+                      <a class="nav-link block" href="advisorReg.html">Register as an Advisor</a>
+                      <a class="nav-link block" href="logIn.html">Log in</a>
+                  </div>
+              </div>
+          </div>
+          <div class="title">
+              <h1>Find Your peace</h1>
+              <p>Insight to nourish your spiritual path</p>
+              <p><span>$1/min*</span></p>
+          </div>
+      </header>
+      <main>
+          <h2>Find Your Best Psychic Advisor</h2>
+          <div class="wrapper-users">
+              <div class="users">
+                  <div class="user">
+                      <div class="user-beg">
+                          <img src="img/user0.jpg" alt="user">
+                          <div class="user-mid">
+                              <h3>Merry Healer</h3>
+                              <p style="width: 458px;">help with all matters of life. Such as Love Health happiness, and Career. I will also give you, sense of direction. I am a Life coach, My readings come directly from the heart I do not sugarcoat, I am nonjudgmental. all of my readings are private and confidential. I will lead you and guide you to your heart's desires.</p>
+                          </div>
+                      </div>
+                      <div class="user-end">
+                          <h4>First 3 Minutes Free</h4>
+                          <p><span>$4.99/min</span></p>
+                          <a href="#">
+                              <button class="call">
+                              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path id="Vector" d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="white"/>
+                              </svg>
+                              Call Now
+                              </button>
+                          </a>
+                          <a href="#">
+                              <button class="message">
+                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path id="Vector" d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM4 7H16V9H4V7ZM12 12H4V10H12V12ZM16 6H4V4H16V6Z" fill="white"/>
+                              </svg>
+                              Chat Later
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="user">
+                      <div class="user-beg">
+                          <img src="img/user1.jpg" alt="user">
+                          <div class="user-mid">
+                              <h3>Superloveadvisor</h3>
+                              <p style="width: 458px;">Improve your life today<br><br>I'm proud to say that I have guided many clients to their financial breakthrough and overall happiness. I've lead many on the right career path as well as helped them through every difficult time. </p>
+                          </div>
+                      </div>
+                      <div class="user-end">
+                          <h4>First 3 Minutes Free</h4>
+                          <p><span>$3.99/min</span></p>
+                          <a href="#">
+                              <button class="letter">
+                              <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path id="Vector" d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="#09B3B0"/>
+                              </svg>
+                              Send Mail
+                              </button>
+                          </a>
+                          <a href="#">
+                              <button class="message">
+                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path id="Vector" d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM4 7H16V9H4V7ZM12 12H4V10H12V12ZM16 6H4V4H16V6Z" fill="white"/>
+                              </svg>
+                              Chat Now
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="user">
+                      <div class="user-beg">
+                          <img src="img/user2.jpg" alt="user">
+                          <div class="user-mid">
+                              <h3>Psychic Althea</h3>
+                              <p style="width: 458px;">Keen's Amazing Psychic Astrologer RexFrederick<br><br>Hello Keen clients! My name is Rex! Quick, friendly, fun, and Accurate! Over 60,000 readings here on Keen! Love, Marriage, Finance and Your Well Being! I'm here to serve your every need! Detailed w/Real understanding!</p>
+                          </div>
+                      </div>
+                      <div class="user-end">
+                          <h4>First 3 Minutes Free</h4>
+                          <p><span>$5.99/min</span></p>
+                          <a href="#">
+                              <button class="call">
+                              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path id="Vector" d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="white"/>
+                              </svg>
+                              Call Now
+                              </button>
+                          </a>
+                          <a href="#">
+                              <button class="message">
+                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path id="Vector" d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM4 7H16V9H4V7ZM12 12H4V10H12V12ZM16 6H4V4H16V6Z" fill="white"/>
+                              </svg>
+                              Chat Now
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="user-btns">
+                      <a href="#"><button>See More Advisors</button></a>
+                      <a href="#"><button style="padding: 17px 80px;">Get Matched</button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="wrapper-private">
+              <h2>WHY Private Oracle?</h2>
+              <div class="privates">
+                  <div class="private">
+                      <img src="img/iconMes.png" alt="message">
+                      <h3>Best Online Psychics</h3>
+                      <p>The quality of our psychic mediums is unmatched. Applicants must go through a rigorous screening process and an intensive background search, which means you can be sure that our team of gifted psychic advisors is the very best of the best.</p>
+                      <a href="#">Read More</a>
+                  </div>
+                  <div class="private">
+                      <img src="img/iconMes.png" alt="message">
+                      <h3>Real Psychic Reviews</h3>
+                      <p>Did you know that all of our psychic reviews are testimonials from actual clients? Read about the positive experiences of others and treat yourself to a psychic reading with one of our accurate psychic advisors.</p>
+                      <a href="#">Read More</a>
+                  </div>
+                  <div class="private">
+                      <img src="img/iconMes.png" alt="message">
+                      <h3>Satisfaction Guaranteed</h3>
+                      <p>We've delivered over 5 million discreet and confidential psychic readings since 1995, and we're here for you 24/7/365. A powerful psychic connection is just a call away. Plus, if it's not the very best psychic reading you've ever had, it's FREE!</p>
+                      <a href="#">Read More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="wrapper-faq">
+              <h2>Love, Relationship, and Life FAQs</h2>
+              <div class="holder-faq">
+                  <div class='faq'>
+                      <p>You've finally decided to take the leap and talk to a psychic (great!), but perhaps you're still feeling a bit confused about online readings, whether or not they are safe, or how to choose the best Keen psychic to meet your needs. We're here to put your mind at ease so that you can get the most out of your reading - every single time.</p>
+                      <div class="faq-ques">
+                          <ul>
+                              <li><a href="#">How do I know someone is thinking about me?</a></li>
+                              <li><a href="#">How do I get through a breakup?</a></li>
+                              <li><a href="#">How do I get the best reading?</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="#">What do I need to know before my first reading?</a></li>
+                              <li><a href="#">What are the different types of psychic readings?</a></li>
+                              <li><a href="#">How can I start a reading for free?</a></li>
+                          </ul>
+                      </div>
+                      <div style="display: flex;justify-content: center;margin: 40px 0 100px 0;">
+                          <a href="#">
+                              <button>
+                                  Readings 101
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <h2>Love, Relationship, and Life FAQs</h2>
+              <div class="holder-faq">
+                  <div class='faq'>
+                      <p>You've finally decided to take the leap and talk to a psychic (great!), but perhaps you're still feeling a bit confused about online readings, whether or not they are safe, or how to choose the best Keen psychic to meet your needs. We're here to put your mind at ease so that you can get the most out of your reading - every single time.</p>
+                      <div class="faq-ques">
+                          <ul>
+                              <li><a href="#">How do I know someone is thinking about me?</a></li>
+                              <li><a href="#">How do I get through a breakup?</a></li>
+                              <li><a href="#">How do I get the best reading?</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="#">What do I need to know before my first reading?</a></li>
+                              <li><a href="#">What are the different types of psychic readings?</a></li>
+                              <li><a href="#">How can I start a reading for free?</a></li>
+                          </ul>
+                      </div>
+                      <div style="display: flex;justify-content: center;margin: 40px 0 100px 0;">
+                          <a href="#">
+                              <button>
+                                  Readings 101
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <h2>Love, Relationship, and Life FAQs</h2>
+              <div class="holder-faq">
+                  <div class='faq'>
+                      <p>You've finally decided to take the leap and talk to a psychic (great!), but perhaps you're still feeling a bit confused about online readings, whether or not they are safe, or how to choose the best Keen psychic to meet your needs. We're here to put your mind at ease so that you can get the most out of your reading - every single time.</p>
+                      <div class="faq-ques">
+                          <ul>
+                              <li><a href="#">How do I know someone is thinking about me?</a></li>
+                              <li><a href="#">How do I get through a breakup?</a></li>
+                              <li><a href="#">How do I get the best reading?</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="#">What do I need to know before my first reading?</a></li>
+                              <li><a href="#">What are the different types of psychic readings?</a></li>
+                              <li><a href="#">How can I start a reading for free?</a></li>
+                          </ul>
+                      </div>
+                      <div style="display: flex;justify-content: center;margin: 40px 0 100px 0;">
+                          <a href="#">
+                              <button>
+                                  Readings 101
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </main>
+      
+      <footer class="footer0">
+          <div class="footer-left">
+              <div class="footer-title">
+                  <a href="#"><img src="img/logo-footer.png" alt="logo"></a>
+                  <div>
+                      <a style="text-transform: none;" href="#"><h5>Private Oracle</h5></a>
+                      <a href="https://www.privateoracle.com/">www.privateoracle.com</a>
+                  </div>
+              </div>
+              <p>Copyright © 2023 · Private Oracle · <a href="https://vk.com/alexxfx">Александр Перепелица</a></p>
+              <div class="footer-left-links">
+                  <a href="privacyPolicy.html">Privacy Policy</a>
+                  <a href="#">Terms and Conditions</a>
+                  <a href="contactUs.html">Contact Us</a>
+              </div>
+          </div>
+          <div class="footer-right">
+              <h5>Keep In Touch</h5>
+              <div class="footer-icons">
+                  <a href=""><img src="img/icon-facebook.svg" alt="facebook"></a>
+                  <a href=""><img src="img/icon-github.svg" alt="github"></a>
+                  <a href=""><img src="img/icon-insta.svg" alt="insta"></a>
+                  <a href=""><img src="img/icon-pinterest.svg" alt="pinterest"></a>
+                  <a href=""><img src="img/icon-twitter.svg" alt="twitter"></a>
+                  <a href=""><img src="img/icon-youtube.svg" alt="youtube"></a>
+              </div>
+              <p>You must be of legal adult age as per your country’s requirements to use this service. Please note this service is for entertainment purposes only, you are responsible for all your life decision.</p>
+          </div>
+      </footer>
+      
+      <footer class="footer1">
+          <div class="footer-left">
+              <div class="footer-title">
+                  <a href="#"><img src="img/logo-footer.png" alt="logo"></a>
+                  <div>
+                      <a style="text-transform: none;" href="#"><h5>Private Oracle</h5></a>
+                      <a href="https://www.privateoracle.com/">www.privateoracle.com</a>
+                  </div>
+              </div>
+              <p>Copyright © 2023 · Private Oracle · <a href="https://vk.com/alexxfx">Александр Перепелица</a></p>
+              <div class="footer-left-links">
+                  <a href="privacyPolicy.html">Privacy Policy</a>
+                  <a href="#">Terms and Conditions</a>
+                  <a href="contactUs.html">Contact Us</a>
+              </div>
+          </div>
+          <div class="footer-right">
+              <h5>Keep In Touch</h5>
+              <div class="footer-icons">
+                  <a href=""><img src="img/icon-facebook.svg" alt="facebook"></a>
+                  <a href=""><img src="img/icon-github.svg" alt="github"></a>
+                  <a href=""><img src="img/icon-insta.svg" alt="insta"></a>
+                  <a href=""><img src="img/icon-pinterest.svg" alt="pinterest"></a>
+                  <a href=""><img src="img/icon-twitter.svg" alt="twitter"></a>
+                  <a href=""><img src="img/icon-youtube.svg" alt="youtube"></a>
+              </div>
+              <p>You must be of legal adult age as per your country’s requirements to use this service. Please note this service is for entertainment purposes only, you are responsible for all your life decision.</p>
+          </div>
+      </footer>
+      <script src="app.js"></script>
+    </body>
+</html>

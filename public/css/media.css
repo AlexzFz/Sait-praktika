@@ -1,0 +1,121 @@
+@media only screen and (max-width:1600px) {
+
+    .wrapper-users {
+        padding: 0;
+    }
+
+    .user {
+        justify-content: space-around;
+    }
+
+    .wrapper-private {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width:1490px) {
+
+    .wrapper-faq {
+        padding: 0;
+    }
+
+    .faq {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .holder-faq {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width:1300px) {
+
+    .footer0 {
+        display: none;
+    }
+
+    .footer1 {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:1250px) {
+
+    nav {
+        display: none;
+    }
+
+    .br-menu {
+        display: block;
+    }
+
+    .title {
+        width: auto;
+    }
+
+    .wrapper-contactUs {
+        padding: 0 50px;
+    }
+
+    article {
+        padding: 50px 50px;
+    }
+
+    .wrapper-form {
+        padding: 50px 50px;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    main h2 {
+        font-size: 40px;
+    }
+
+    .wrapper-private h2 {
+        font-size: 40px;
+    }
+
+    .wrapper-faq h2 {
+        font-size: 40px;
+    }
+
+    .user {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .user p {
+        margin-bottom: 13px;
+    }
+
+    .user img{
+        display: none;
+    }
+
+    .privates {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .private {
+        margin-bottom: 20px;
+    }
+
+    .faq-ques {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq {
+        width: auto;
+    }
+
+}
